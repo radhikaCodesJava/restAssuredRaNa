@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite2]" guice-stage="DEVELOPMENT" verbose="10">
+  <test thread-count="5" name="JOBSApiTest(failed)" verbose="10">
+    <classes>
+      <class name="com.JobsApi.testcases.JobsApiDeleteRequest">
+        <methods>
+          <include name="deleteJob" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.JobsApi.testcases.JobsApiDeleteRequest -->
+      <class name="com.JobsApi.testcases.JobsApiPutRequest">
+        <methods>
+          <include name="test_UpdateJob" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.JobsApi.testcases.JobsApiPutRequest -->
+    </classes>
+  </test> <!-- JOBSApiTest(failed) -->
+</suite> <!-- Failed suite [TestSuite2] -->

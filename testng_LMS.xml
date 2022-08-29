@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite1" verbose="10" parallel="false"
+	thread-count="5">
+	<test name="LMSApiTest">
+		
+		<classes>
+			<class name="com.LMSAPI.testcases.LmsApiGetRequest" />
+			<class name="com.LMSAPI.testcases.LmsApiSingleGetRequest" />
+			<class name="com.LMSAPI.testcases.LmsApiPostRequest" />
+			<class name="com.LMSAPI.testcases.LmsApiPutRequest" />
+			<class name="com.LMSAPI.testcases.LmsApiDeleteRequest" />
+		</classes>
+	</test>
+</suite> 

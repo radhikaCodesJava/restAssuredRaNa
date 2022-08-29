@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>TestNG:  JOBSApiTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>JOBSApiTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 08 20:21:34 EST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14028 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiPostRequest.test_CreateNewJob()'><b>test_CreateNewJob</b><br>Test class: com.JobsApi.testcases.JobsApiPostRequest<br>Parameters: 1024, Java Developer, Chicago,Illinois, Infosys, Contract, 4 hours ago, Java development experience required<br/>
+<a href="#Output-650621382" onClick='toggleBox("Output-650621382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-650621382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-650621382">
+The new job details are <br/>
+Job Id: 1024<br/>
+Job Title: Java Developer<br/>
+Job Location: Chicago,Illinois<br/>
+Job Company Name: Infosys<br/>
+Job Type: Contract<br/>
+Job Posted Time: 4 hours ago<br/>
+Job description: Java development experience required<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiPostRequest@6c80d78a</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiDeleteRequest.test_DeleteNonExistingJob()'><b>test_DeleteNonExistingJob</b><br>Test class: com.JobsApi.testcases.JobsApiDeleteRequest<br>Parameters: 1111</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiDeleteRequest@1a451d4d</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiPostRequest.test_CreateJobExistingId()'><b>test_CreateJobExistingId</b><br>Test class: com.JobsApi.testcases.JobsApiPostRequest<br>Parameters: 1001, SDET, Madison,Wisconsin, TCS, Full Time, 2 hours ago, Must have 3 years of experience in QA</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiPostRequest@6c80d78a</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiPostRequest.test_CreateNewJob()'><b>test_CreateNewJob</b><br>Test class: com.JobsApi.testcases.JobsApiPostRequest<br>Parameters: 1023, SDET, Madison,Wisconsin, TCS, Full Time, 2 hours ago, Must have 3 years of experience in QA<br/>
+<a href="#Output-1393710872" onClick='toggleBox("Output-1393710872", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1393710872" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1393710872">
+The new job details are <br/>
+Job Id: 1023<br/>
+Job Title: SDET<br/>
+Job Location: Madison,Wisconsin<br/>
+Job Company Name: TCS<br/>
+Job Type: Full Time<br/>
+Job Posted Time: 2 hours ago<br/>
+Job description: Must have 3 years of experience in QA<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.JobsApi.testcases.JobsApiPostRequest@6c80d78a</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiPutRequest.test_UpdateJob()'><b>test_UpdateJob</b><br>Test class: com.JobsApi.testcases.JobsApiPutRequest<br>Parameters: 1023, QA Engineer II, Milwaukee,Wisconsin</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiPutRequest@62150f9e</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiPutRequest.test_UpdateJob()'><b>test_UpdateJob</b><br>Test class: com.JobsApi.testcases.JobsApiPutRequest<br>Parameters: 1024, Python Developer II, Raleigh,NC</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiPutRequest@62150f9e</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiDeleteRequest.deleteJob()'><b>deleteJob</b><br>Test class: com.JobsApi.testcases.JobsApiDeleteRequest<br>Parameters: 1024</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiDeleteRequest@1a451d4d</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiGetRequest.test_GetAllJobDetails()'><b>test_GetAllJobDetails</b><br>Test class: com.JobsApi.testcases.JobsApiGetRequest</td>
+<td></td>
+<td>4</td>
+<td>com.JobsApi.testcases.JobsApiGetRequest@123ef382</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiPutRequest.test_UpdateNonExistingJob()'><b>test_UpdateNonExistingJob</b><br>Test class: com.JobsApi.testcases.JobsApiPutRequest<br>Parameters: 3333, Python Developer II, Raleigh,NC</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiPutRequest@62150f9e</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiDeleteRequest.test_DeleteNonExistingJob()'><b>test_DeleteNonExistingJob</b><br>Test class: com.JobsApi.testcases.JobsApiDeleteRequest<br>Parameters: 3333</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiDeleteRequest@1a451d4d</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiPutRequest.test_UpdateNonExistingJob()'><b>test_UpdateNonExistingJob</b><br>Test class: com.JobsApi.testcases.JobsApiPutRequest<br>Parameters: 2222, QA Engineer II, Milwaukee,Wisconsin</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiPutRequest@62150f9e</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiDeleteRequest.deleteJob()'><b>deleteJob</b><br>Test class: com.JobsApi.testcases.JobsApiDeleteRequest<br>Parameters: 1023</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiDeleteRequest@1a451d4d</td></tr>
+<tr>
+<td title='com.JobsApi.testcases.JobsApiPostRequest.test_CreateJobExistingId()'><b>test_CreateJobExistingId</b><br>Test class: com.JobsApi.testcases.JobsApiPostRequest<br>Parameters: 1002, Java Developer, Chicago,Illinois, Infosys, Contract, 4 hours ago, Java development experience required</td>
+<td></td>
+<td>0</td>
+<td>com.JobsApi.testcases.JobsApiPostRequest@6c80d78a</td></tr>
+</table><p>
+</body>
+</html>

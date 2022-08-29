@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite2" verbose="10" parallel="false"
+	thread-count="5">
+	<test name="JOBSApiTest">
+		
+		<classes>
+			<class name="com.JobsApi.testcases.JobsApiGetRequest" />
+			<class name="com.JobsApi.testcases.JobsApiPostRequest" />
+			<class name="com.JobsApi.testcases.JobsApiPutRequest" />
+			<class name="com.JobsApi.testcases.JobsApiDeleteRequest" />
+		</classes>
+	</test>
+</suite> 
